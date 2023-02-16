@@ -1,0 +1,92 @@
+.speech{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+color: black;
+
+}
+.direc{
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    color:black;
+    background-color: pink;
+
+}
+.direc:hover{
+    color: blue;
+
+    background-color: aqua;
+}
+.ADONIJAH{
+    font-style: oblique;
+    color:aquamarine;
+}
+.COTTON{
+    font-style: italic;
+    color:#04AA6D;
+}
+.CHARLES{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:brown;
+}
+.NAME.CHARLES:hover{
+    color:forestgreen;
+    text-shadow: 3px 3px 5px brown;
+    border:2px dashed coral;
+}
+.NAME.ADONIJAH:hover{
+    color:#04AA6D;
+    text-shadow: 3px 3px 5px violet;
+    border:2px dashed blue;
+
+}
+.NAME.COTTON:hover{
+    color:cadetblue;
+    text-shadow: 3px 3px 5px purple;
+    border:2px dashed yellow;
+}
+.tb,th,td{
+    border:3px solid;
+    color:black;
+    text-align:center;
+     margin-top:50px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 40px;
+
+}
+th{
+    color:cornflowerblue;
+}
+th, td {
+    padding:11px;
+}
+tr:nth-child(even){
+    background-color:coral;
+}
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
